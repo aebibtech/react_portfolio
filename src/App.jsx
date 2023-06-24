@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import Header from "./comps/Header"
 import Footer from "./comps/Footer"
+import Hero from "./comps/Hero"
 
 function App() {
   const [conf, setConf] = useState({})
@@ -16,12 +17,10 @@ function App() {
   }, [])
 
   return (
-    <div className="h-screen px-4 lg:px-12 bg-white dark:bg-slate-800 text-slate-900 dark:text-white">
+    <div className="h-screen w-screen px-4 lg:px-12 text-white bg-gradient-to-r from-indigo-900 to-black overflow-y-auto">
       <Header siteName={conf.site_name} links={conf.navlinks} />
-      <div>
-        Aebibtech website
-      </div>
-      <Footer year={conf.year_created} siteName={conf.site_name} />
+      <Hero siteName={conf.site_name} jobTitle={conf.job_title} />
+      <Footer year={conf.year_created} siteName={conf.site_name} email={conf.email} />
     </div>
   )
 }
