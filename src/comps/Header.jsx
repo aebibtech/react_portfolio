@@ -1,7 +1,7 @@
 export default function Header({ siteName, links }){
     function goTop(){
         console.log("Go top clicked")
-        window.scrollTo({top: 0, behavior: 'smooth'})
+        document.querySelector("#hero").scrollIntoView({ behavior:"smooth" })
     }
 
     return (
