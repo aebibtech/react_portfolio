@@ -1,12 +1,7 @@
 export default function Header({ siteName, links }){
-    function goTop(){
-        console.log("Go top clicked")
-        document.querySelector("#hero").scrollIntoView({ behavior:"smooth" })
-    }
-
     return (
-        <header className="flex py-3 justify-between sticky top-0 bg-gradient-to-r from-indigo-900 to-black">
-            <a onClick={goTop} className="text-3xl font-semibold tracking-widest hover:text-blue-500 hover:cursor-pointer">{siteName}</a>
+        <header className="flex py-3 px-4 justify-between sticky top-0 bg-gradient-to-r from-indigo-900 to-black">
+            <button onClick={() => {  window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }} className="text-3xl font-semibold tracking-widest hover:text-blue-500 hover:cursor-pointer">{siteName}</button>
             <nav className="my-auto">
                 <ul className="text-xl flex gap-3 lg:visible">
                     {links && links.map((link, key) => {
