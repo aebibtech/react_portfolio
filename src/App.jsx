@@ -3,6 +3,7 @@ import Header from "./comps/Header"
 import Footer from "./comps/Footer"
 import Hero from "./comps/Hero"
 import Projects from "./comps/Projects"
+import Contact from "./comps/Contact"
 
 function App() {
   const [conf, setConf] = useState({})
@@ -21,13 +22,14 @@ function App() {
   }, [])
 
   return (
-    <div className="no-scrollbar h-screen w-screen sm:px-0 2xl:px-48 text-white bg-gradient-to-r from-indigo-900 to-black">
+    <div className="no-scrollbar h-screen w-screen text-white bg-gradient-to-r from-indigo-900 to-black">
       <div className={`h-screen w-screen ${ loading ? "visible" : "hidden" } fixed left-0 flex justify-center items-center bg-gradient-to-r from-indigo-900 to-black overflow-y-auto z-10`} role="status">
         <div className="h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"></div>
       </div>
       <Header siteName={conf.site_name} links={conf.navlinks} />
       <Hero siteName={conf.site_name} jobTitle={conf.job_title} />
       <Projects projects={conf.projects} />
+      {conf.contact && <Contact contact={conf.contact} />}
       <Footer year={conf.year_created} siteName={conf.site_name} email={conf.email} />
     </div>
   )
