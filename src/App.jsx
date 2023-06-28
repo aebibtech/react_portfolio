@@ -6,6 +6,7 @@ import Projects from "./comps/Projects"
 import Contact from "./comps/Contact"
 import { GlobalContext, themes } from "./Globals"
 import LoadingSpinner from "./comps/LoadingSpinner"
+import About from "./comps/About"
 
 function App() {
   const [conf, setConf] = useState({})
@@ -31,6 +32,7 @@ function App() {
         <Header />
         <Hero />
         <Projects />
+        <About />
         <Contact />
         <Footer />
       </div>

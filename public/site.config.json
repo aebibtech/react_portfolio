@@ -24,6 +24,14 @@
         "messenger": "https://m.me/aebib",
         "twitter": "https://twitter.com/paul_abib"
     },
+    "about": {
+        "name": "Paul Abib Camano",
+        "gender": "M",
+        "age": "30",
+        "location": "Philippines",
+        "bio": "🖥️ Computers | 👨‍💻 Software | 🌐 Web | 🥋 Karate | 🎸 Guitars",
+        "pic_link": "/profile_pic_aebib.png"
+    },
     "year_created": "",
     "theme": "blue"
 }
