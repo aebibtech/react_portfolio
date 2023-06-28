@@ -5,7 +5,7 @@ export default function About(){
     const { conf } = useContext(GlobalContext)
 
     return(
-        <div className="p-4 mt-4 sm:mt-48" id="About">
+        <div className="py-16 px-4 mt-4 sm:mt-48 shadow-2xl" id="About">
             <h3 className="text-3xl sm:text-4xl md:text-7xl text-center mb-12">Who I am</h3>
             <div className="flex justify-center items-center gap-4">
                 <figure>
