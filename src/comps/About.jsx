@@ -13,7 +13,7 @@ export default function About(){
                 </figure>
                 <div>
                     <p className="text-3xl">{conf.about && conf.about.name}</p>
-                    <p className="text-xl">{conf.about && conf.about.age}, {conf.about && conf.about.gender}</p>
+                    <p className="text-xl">{conf.about && (new Date().getFullYear() - conf.about.birth_year)}, {conf.about && conf.about.gender}</p>
                     <p className="text-xl">{conf.about && conf.about.location}</p>
                     <p className="text-xl">{conf.about && conf.about.bio}</p>
                 </div>
