@@ -9,11 +9,11 @@
     ],
     "projects": [
         {"name": "Box.com Downloader", "banner_image": "https://github.com/aebibtech/boxdl_desktop/blob/main/Screenshot%202023-06-25%20174401.png?raw=true", "link": "https://github.com/aebibtech/boxdl_desktop", "description": "This application can scrape and download protected docx, pdf files in box.com and save it as an editable PDF file."},
-        {"name": "Random Quote Generator", "banner_image": "https://github.com/aebibtech/fcc-rqg/blob/main/rqg-gif.gif?raw=true", "link": "https://rqg.aebibtech.com", "description": "This is a random quote generator built with Vite + React. This is my attempt to complete freeCodeCamp's random quote generator project."},
+        {"name": "Random Quote Generator", "banner_image": "https://github.com/aebibtech/fcc-rqg/blob/main/Screenshot%202023-07-02%20204818.png?raw=true", "link": "https://rqg.aebibtech.com", "description": "This is a random quote generator built with Vite + React. This is my attempt to complete freeCodeCamp's random quote generator project."},
         {"name": "Arabic to Roman Numeral Converter", "banner_image": "https://github.com/aebibtech/next-romconv/blob/main/romconv.png?raw=true", "link": "https://arab2roman.aebibtech.com", "description": "This is an app that converts Arabic numbers to Roman numerals. This app utilizes React and Next.js. Click to try now."},
-        {"name": "Java Swing Simple Calculator", "banner_image": "https://github.com/aebibtech/aebibtech-website/blob/main/public/javacalc.gif?raw=true", "link": "https://github.com/aebibtech/SimpleCalculator-SwingMVC", "description": "A simple calculator developed using Java that demonstrates development in Swing with the MVC approach. Try it sometime."},
-        {"name": "Markdown Previewer", "banner_image": "", "link": "https://mdp.aebibtech.com/", "description": "My solution to freeCodeCamp.org's Markdown Previewer challenge. Created with Vite. Markdown previewer developed with React and Marked.js."},
-        {"name": "Scroll Lock Toggle Utility", "banner_image": "", "link": "https://github.com/aebibtech/ScrollLockToggle-Windows", "description": "A small utility for toggling scroll lock written in C for Windows."}
+        {"name": "Java Swing Simple Calculator", "banner_image": "https://github.com/aebibtech/SimpleCalculator-SwingMVC/blob/main/swingmvc.png?raw=true", "link": "https://github.com/aebibtech/SimpleCalculator-SwingMVC", "description": "A simple calculator developed using Java that demonstrates development in Swing with the MVC approach. Try it sometime."},
+        {"name": "Markdown Previewer", "banner_image": "https://github.com/aebibtech/fcc_markdown-previewer-camano/blob/main/mdpsc.png?raw=true", "link": "https://mdp.aebibtech.com/", "description": "My solution to freeCodeCamp.org's Markdown Previewer challenge. Created with Vite. Markdown previewer developed with React and Marked.js."},
+        {"name": "Scroll Lock Toggle Utility", "banner_image": "https://github.com/aebibtech/ScrollLockToggle-Windows/blob/master/scroll-lock.jpeg?raw=true", "link": "https://github.com/aebibtech/ScrollLockToggle-Windows", "description": "A small utility for toggling scroll lock written in C for Windows."}
     ],
     "contact": {
         "github": "https://github.com/aebibtech",
@@ -33,5 +33,5 @@
         "pic_link": "/profile_pic_aebib.png"
     },
     "year_created": "",
-    "theme": "blue"
+    "theme": "system"
 }

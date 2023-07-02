@@ -26,7 +26,7 @@ function App() {
 
   return (
     <GlobalContext.Provider value={{ conf: conf }}>
-      <div className={`no-scrollbar h-screen w-screen ${conf.theme}`}>
+      <div className={`no-scrollbar h-screen w-screen ${themes[conf.theme]}`}>
         <LoadingSpinner loading={loading} />
         <Header />
         <Hero />

@@ -5,7 +5,7 @@ export default function Header(){
     const { conf } = useContext(GlobalContext)
 
     return (
-        <header className={`w-full ${themes[conf.theme]} hidden sm:flex sm:justify-between py-3 px-4 fixed top-0 z-50 shadow-lg`}>
+        <header className={`w-full ${themes[conf.theme]} hidden sm:flex sm:justify-between py-3 px-4 fixed top-0 z-40 shadow-lg`}>
             <button onClick={() => {  window.scrollTo({ top: 0, left: 0, behavior: "smooth" }) }} className="text-3xl font-semibold tracking-widest hover:opacity-75 hover:cursor-pointer">{conf.site_name}</button>
             <nav className="my-auto">
                 <ul className="text-xl gap-3 hidden sm:flex">
