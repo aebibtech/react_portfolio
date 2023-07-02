@@ -2,10 +2,15 @@
 This is an app that aims to help beginning developers in creating their portfolio.
 
 ## How to use
+1. Make sure that you have Node.js installed.
 1. Clone this repository.
-2. Once you have it on your computer, on the `public` folder, open `site.config.json`.
-3. Change the values based on your needs.
-4. Deploy to your hosting of choice.
+1. Open the project on your terminal and run `npm install`.
+1. Run the project by `npm run dev`.
+1. Open `https://localhost:5173` on your browser.
+1. Once you have it on your computer, on the `public` folder, open `site.config.json`.
+1. Change the values based on your needs.
+1. Refresh your browser to see the changes.
+1. Deploy to your hosting of choice.
 
 ## Config File (public/site.config.json) Parameters
 This is a JSON file. Follow JSON conventions to prevent errors.
