@@ -1,5 +1,5 @@
 # React Portfolio for Starters
-This is an app that aims to help beginning developers in creating their portfolio.
+This is an app that aims to help beginning developers in creating their portfolio. This project utilizes Node.js, React, Vite, and Tailwind CSS.
 
 ## How to use
 1. Make sure that you have Node.js installed.
