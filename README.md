@@ -27,5 +27,10 @@ This is a JSON file. Follow JSON conventions to prevent errors.
 ## Contributing
 Fork the project and start contributing. Everyone is welcome to improve this project. Looking forward to work with you. 🙏
 
+## Bucket List
+ - Tech Stack section
+ - Make the system theme work
+ - Improving this readme
+
 ## Did you find this useful?
 [![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/aebibtech)
