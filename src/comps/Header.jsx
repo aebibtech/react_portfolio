@@ -11,7 +11,7 @@ export default function Header(){
                 <ul className="text-xl gap-3 hidden sm:flex">
                     {conf.navlinks && conf.navlinks.map((link, key) => {
                         const {text, href} = link
-                        return <li className="hover:opacity-75 hover:underline decoration-dashed" key={key}><a href={href}>{text}</a></li>
+                        return <li className="hover:opacity-75 decoration-dashed" key={key}><a href={href}>{text}</a></li>
                     })}
                 </ul>
             </nav>

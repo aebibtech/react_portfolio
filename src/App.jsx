@@ -3,6 +3,7 @@ import Header from "./comps/Header"
 import Footer from "./comps/Footer"
 import Hero from "./comps/Hero"
 import Projects from "./comps/Projects"
+import Skills from "./comps/Skills"
 import Contact from "./comps/Contact"
 import { GlobalContext, themes } from "./Globals"
 import LoadingSpinner from "./comps/LoadingSpinner"
@@ -26,11 +27,12 @@ function App() {
 
   return (
     <GlobalContext.Provider value={{ conf: conf }}>
-      <div className={`no-scrollbar h-screen w-screen ${themes[conf.theme]}`}>
+      <div className={`${themes[conf.theme]}`}>
         <LoadingSpinner loading={loading} />
         <Header />
         <Hero />
         <Projects />
+        <Skills />
         <About />
         <Contact />
         <Footer />
