@@ -7,7 +7,7 @@ import { FaCss3, FaGlobe, FaHtml5, FaJs, FaLaravel, FaPhp } from 'react-icons/fa
 
 const Skills = () => {
     return (
-			<div className="py-16 px-4 mt-4 sm:mt-48 h-screen" id="Skills">
+			<div className="py-16 px-4 mt-4 sm:mt-48" id="Skills">
 				<h3 className="text-3xl sm:text-4xl md:text-7xl text-center mb-12">Skills</h3>
 				<div className="skills-grid">
 					<div className="skill-item">
