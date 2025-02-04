@@ -3,7 +3,7 @@ import { FaDocker, FaJenkins, FaDatabase } from 'react-icons/fa';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiRuby, SiPostgresql, SiMongodb } from 'react-icons/si';
 import { FaTools, FaCode, FaCloud, FaServer, FaDesktop, FaCogs, FaDatabase as FaDatabaseAlt } from 'react-icons/fa';
-import { FaCss3, FaGlobe, FaHtml5, FaJs, FaLaravel, FaPhp } from 'react-icons/fa6';
+import { FaCss3, FaGlobe, FaHtml5, FaJs, FaLaravel, FaPhp, FaPython } from 'react-icons/fa6';
 
 const Skills = () => {
     return (
@@ -101,6 +101,10 @@ const Skills = () => {
 				<div className="skill-item">
 					<FaLaravel />
 					<span>Laravel</span>
+				</div>
+				<div className="skill-item">
+					<FaPython />
+					<span>Python</span>
 				</div>
 			</div>
 		</div>
