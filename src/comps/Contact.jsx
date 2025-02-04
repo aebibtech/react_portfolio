@@ -11,7 +11,7 @@ export default function Contact(){
     
     return(
         <div className="p-4 mt-4 sm:mt-48" id="Contact">
-            <h3 className="text-3xl sm:text-4xl md:text-7xl text-center mb-12">Where to find me</h3>
+            <h3 className="text-3xl sm:text-4xl md:text-7xl text-center mb-12">Let's Connect</h3>
             <div className="flex justify-center gap-4">
                 {conf.contact && Object.keys(conf.contact).map(socmed => {
                     return conf.contact[socmed] && <ContactButton link={conf.contact[socmed]} icon={`/assets/img/${socmed}.png`} />
