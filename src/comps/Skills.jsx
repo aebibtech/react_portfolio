@@ -1,9 +1,9 @@
-import { FaEnvelope, FaLinkedin, FaGithub, FaMicrosoft, FaDotCircle } from 'react-icons/fa';
-import { FaDocker, FaJenkins, FaDatabase } from 'react-icons/fa';
+import { FaGithub, FaBrain } from 'react-icons/fa';
+import { FaDocker } from 'react-icons/fa';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiRuby, SiPostgresql, SiMongodb } from 'react-icons/si';
 import { FaTools, FaCode, FaCloud, FaServer, FaDesktop, FaCogs, FaDatabase as FaDatabaseAlt } from 'react-icons/fa';
-import { FaCss3, FaGlobe, FaHtml5, FaJs, FaLaravel, FaPhp, FaPython } from 'react-icons/fa6';
+import { FaCss3, FaGlobe, FaHtml5, FaJs, FaLaravel, FaPhp, FaPython, FaDiagramProject } from 'react-icons/fa6';
 
 const Skills = () => {
     return (
@@ -105,6 +105,14 @@ const Skills = () => {
 				<div className="skill-item">
 					<FaPython />
 					<span>Python</span>
+				</div>
+				<div className="skill-item">
+					<FaBrain />
+					<span>AI/ML</span>
+				</div>
+				<div className="skill-item">
+					<FaDiagramProject />
+					<span>Agile</span>
 				</div>
 			</div>
 		</div>
