@@ -1,6 +1,6 @@
 {
     "site_name": "Aebibtech",
-    "job_title": "Full Stack Developer | QA",
+    "job_title": "I help organizations build fast, scalable web apps with ASP.NET Core / MERN",
     "email": "aebibtech@gmail.com",
     "navlinks": [ 
         {"text": "Projects", "href": "#Projects"},
@@ -29,7 +29,7 @@
         "gender": "M",
         "birth_year": "1993",
         "location": "Philippines",
-        "bio": "🖥️ Computers | 👨‍💻 Software | 🌐 Web | 🥋 Karate | 🎸 Guitars",
+        "bio": "I am a software engineer with a passion for building fast, scalable web applications. I specialize in ASP.NET Core and the MERN stack, and I love creating tools that help people be more productive. In my free time, I enjoy contributing to open source projects and exploring new technologies.",
         "pic_link": "/profile_pic_aebib.png"
     },
     "year_created": "",
